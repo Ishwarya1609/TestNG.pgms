@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="GPTest">
+  <groups>
+  <run>
+  <include name="ERP"></include>
+  <exclude name="ECOM"></exclude></run></groups>
+    <classes>
+      <class name="annotations.Groop1Test"/>
+    </classes>
+  </test> <!-- GPTest -->
+</suite> <!-- Suite -->
